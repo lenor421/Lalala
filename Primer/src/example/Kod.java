@@ -24,13 +24,11 @@ import java.awt.event.MouseEvent;
 
 public class Kod extends JFrame {
 private JTextField input = new JTextField(""); 
-private JButton button = new JButton("Расчёт в куб.м"); 
+private JButton button = new JButton("Комит"); 
 private JButton button1 = new JButton("Кнопка");
 private JButton button2 = new JButton("Перевод расчета в куб. см.");
 private JLabel label = new JLabel("ПИ-220");
 private JLabel label14 = new JLabel("ФГБОУ ВО");
-private JLabel label15 = new JLabel("Уфимский государственный авиационный технический университет");
-private JLabel label16 = new JLabel("Руководитель: Казанцев А.В.");
 private JLabel label2 = new JLabel("Шаяхметов Руслан Динарович ");
 private JLabel label3 = new JLabel("");
 private JLabel label4 = new JLabel("Биненда Александра Дмитриевна ");
@@ -55,7 +53,6 @@ button1.addActionListener(new ButtonEventListener());
 Container container = this.getContentPane();
 container.setLayout(new GridLayout(22,2,0,0));
 container.add(label14);
-container.add(label15);
 container.add(label);
 container.add(label2);
 container.add(label3);
@@ -73,7 +70,7 @@ container.add(label10);
 container.add(button2);
 container.add(button1);
 container.add(label13);
-container.add(label16);
+
 
 website.setText("<html> ссылка : "
 + "<a href=\"\">АСУ УГАТУ</a></html>");
